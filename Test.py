@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+'''Hello to the world from ev3dev.org'''
+
+import os
+import sys
+import time
+
 
 from ev3dev2.motor import LargeMotor, OUTPUT_A, OUTPUT_B, SpeedPercent, MoveTank
 from ev3dev2.sound import Sound
@@ -17,6 +23,3 @@ tank_drive.on_for_rotations(SpeedPercent(-50), SpeedPercent(-100
 # drive in a different turn for 3 seconds
 #tank_drive.on_for_seconds(SpeedPercent(60), SpeedPercent(30), 3)
 #hihihihihihi
-
-
-
